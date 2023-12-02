@@ -1,0 +1,25 @@
+.form ,
+.buttons,
+.results {
+    padding: 10px 10px;
+}
+
+#an, #gn {
+    margin-top: 10px;
+    margin-left: 10px;
+    color: aqua;
+    background-color: blue;
+}
+
+#urlInput {
+    width: 40%;
+    margin-top: 10px;
+}
+
+.results {
+    margin-top: 20px;
+}
+
+#divResult {
+    display: none;
+}
