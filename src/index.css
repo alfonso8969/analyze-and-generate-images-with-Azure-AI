@@ -1,6 +1,7 @@
 .form ,
 .buttons,
-.results {
+.results, 
+img {
     padding: 10px 10px;
 }
 
