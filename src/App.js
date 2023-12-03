@@ -24,8 +24,8 @@ function App() {
   }
 
   async function callImageAnalysisAPI(imageUrl) {
-    const apiKey = "a927947a161c4435b5e64df02ecd0dc3"; // Reemplaza "TU_CLAVE_DE_API" con tu propia clave de API
-    const endpoint = "https://alfcomputervision.cognitiveservices.azure.com/"; // Reemplaza "tu-endpoint-de-api" con tu propio endpoint de API
+    const apiKey = process.env.REACT_APP_API_KEY; // Reemplaza "TU_CLAVE_DE_API" con tu propia clave de API
+    const endpoint = process.env.REACT_APP_ENDPOINT; // Reemplaza "tu-endpoint-de-api" con tu propio endpoint de API
 
     const response = await fetch(`${endpoint}/computervision/imageanalysis:analyze?api-version=2023-02-01-preview&features=tags,read,caption,denseCaptions,smartCrops,objects,people&language=en`, {
       method: "POST",

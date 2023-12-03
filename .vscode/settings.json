@@ -4,5 +4,9 @@
     },
     "omnisharp.dotNetCliPaths": [
         "C:\\Users\\alfon\\.azurelogicapps\\dependencies\\DotNetSDK"
+    ],
+    "cSpell.words": [
+        "computervision",
+        "imageanalysis"
     ]
 }
